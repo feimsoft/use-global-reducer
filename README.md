@@ -30,7 +30,6 @@ const reducer: Reducer<GlobalState, GlobalAction> = (state, action) => {
 };
 
 const useGlobal = useGlobalReducer(reducer, {
-    header: null,
     navOpen: false
 });
 
