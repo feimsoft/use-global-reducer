@@ -1,5 +1,5 @@
 {
-  "name": "use-global-reducer",
+  "name": "@feimsoft/use-global-reducer",
   "version": "0.1.2",
   "description": "Use global reducers for react using hooks",
   "main": "src/index.ts",
