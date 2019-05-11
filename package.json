@@ -1,6 +1,6 @@
 {
   "name": "use-global-reducer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Use global reducers for react using hooks",
   "main": "src/index.ts",
   "repository": {
