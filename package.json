@@ -1,6 +1,6 @@
 {
   "name": "@feimsoft/use-global-reducer",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Use global reducers for react using hooks",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,19 +12,21 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "@types/react": "^16.8.17",
     "test": "jest --config jestconfig.json",
     "start": "ts-node -r tsconfig-paths/register src/index.ts",
     "start:dev": "nodemon",
+    "prebuild": "rimraf dist",
     "build": "tsc"
   },
   "devDependencies": {
     "@types/node": "^12.0.0",
+    "@types/react": "^16.8.17",
+    "rimraf": "^3.0.2",
     "ts-node": "^8.1.0",
     "tsconfig-paths": "^3.8.0",
     "typescript": "^3.4.5"
   },
-  "dependencies": {
-    "react": "^16.8.6"
+  "peerDependencies": {
+    "react": "^16.12.0"
   }
 }
